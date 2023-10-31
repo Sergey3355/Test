@@ -2329,6 +2329,7 @@ a.footer-link__text svg {
   }
   .explore-img-grid {
     gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
   }
   .explore-barnd-price__one {
     font-size: 16px;
@@ -2588,10 +2589,11 @@ a.footer-link__text svg {
     font-size: 16px;
   }
   .content-text {
-    font-size: 16px;
+    font-size: 12px;
+    letter-spacing: 0.84px;
   }
   .content-text__link {
-    font-size: 10px;
+    font-size: 8px;
   }
   .headline-collection {
     font-size: 25px;
