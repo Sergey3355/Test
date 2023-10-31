@@ -4,6 +4,10 @@
 <path  d="M8.8 16h14.4M8.8 11.2h14.4M8.8 20.8h14.4"></path>
 </symbol>
 
+<symbol id="icon-galka" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3" d="M26 11l-10 10-10-10"></path>
+</symbol>
+
 <symbol id="icon-Frame-1" viewBox="0 0 32 32">
 <path  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.7826" d="M10 22l16-16M26 6h-15M26 6v15"></path>
 </symbol>

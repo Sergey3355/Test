@@ -26,7 +26,7 @@
           <div class="header-left">
             <div class="menu">
               <button class="button-menu" type="button" id="openBtn">
-                <svg width="36" height="36">
+                <svg>
                   <use href="./img/symbol-defs.svg#icon-menu"></use>
                 </svg>
               </button>
@@ -362,48 +362,6 @@
                 </div>
               </div>
             </div>
-            <!-- 
-            <div class="wrap-explore-add__fon">
-              <a class="card-explore__items" href="">
-                <div class="explore-img">
-                  <div>
-                    <img class="img-explore__fon" src="./img/fon.jpg" alt="" />
-                  </div>
-                  <p class="explore-img-sale__fon">sale</p>
-                </div>
-                <div class="wrap-explore-brand__add">
-                  <p class="explore-brand">brand name</p>
-                  <h3 class="explore-brand__title">EIKON BASIC PISTACHE</h3>
-                  <p class="explore-barnd__price"
-                    >$99 <s class="explore-prie__old">$120</s>
-                  </p>
-
-                  <div class="wrap-explore-add__card">
-                    <a href="">
-                      <span class="add-card">add to cart</span>
-                    </a>
-
-                    <a href=""> <span class="add-card">quickview</span></a>
-                  </div>
-
-                  <div class="wrap-explore-icons__card">
-                    <a href="">
-                      <svg >
-                        <use href="./img/symbol-defs.svg#icon-heart"></use>
-                      </svg>
-                    </a>
-
-                    <a href="">
-                      <svg >
-                        <use
-                          href="./img/symbol-defs.svg#icon-Social-Facebook"
-                        ></use>
-                      </svg>
-                    </a>
-                  </div>
-                </div>
-              </a>
-            </div> -->
 
             <div class="wrapper-item">
               <a class="card-explore__items" href="">
@@ -551,7 +509,7 @@
       <div class="container">
         <div class="wrap-footer_all">
           <div class="subscrite-form__wrap">
-            <div class="wrap-subscrite-input__footer">
+            <div class="wrap-subscrite-inputfooter">
               <div class="subscrite">
                 <h2 class="headline-footer">Subscribe our Newsletter</h2>
                 <p class="text-footer">And be aware of all discounts!</p>
@@ -566,11 +524,13 @@
                   />
 
                   <div class="icon-input">
-                    <a class="footer-link__text" href="">
-                      <svg>
-                        <use href="./img/symbol-defs.svg#icon-Icons-5"></use>
-                      </svg>
-                    </a>
+                    <button class="button-menu-icon__input" type="button">
+                      <a class="footer-link__text" href="">
+                        <svg>
+                          <use href="./img/symbol-defs.svg#icon-Icons-5"></use>
+                        </svg>
+                      </a>
+                    </button>
                   </div>
                 </div>
               </form>
@@ -728,35 +688,52 @@
     <!-- --------------------- MENU ------------------ -->
     <div class="backdrop hidden" id="backdropMenu">
       <div class="backdrop-menu menu-container">
-        <button type="button" class="backdrop-close__btn" id="closeBtn"
-          >X
-          <!-- <svg class="backdrop-close__icon" >
+        <button type="button" class="backdrop-close__btn" id="closeBtn">
+          <svg class="backdrop-close__icon">
             <use href="./img/symbol-defs.svg#icon-Frame"></use>
-          </svg> -->
+          </svg>
         </button>
 
         <div class="wrap-backdrop-text">
           <p class="backdrop-text__menu">Menu</p>
         </div>
+        <ul class="backdrop-menu__list">
+          <li class="backdrop-menu__item"
+            ><a class="backdrop-menu-item__link" href=""
+              >new collection
+              <svg class="menu-svg">
+                <use href="./img/symbol-defs.svg#icon-galka"></use>
+              </svg> </a
+          ></li>
+          <li class="backdrop-menu__item"
+            ><a class="backdrop-menu-item__link" href=""
+              >new arrival
+              <svg class="menu-svg">
+                <use href="./img/symbol-defs.svg#icon-galka"></use>
+              </svg> </a
+          ></li>
+          <li class="backdrop-menu__item"
+            ><a class="backdrop-menu-item__link" href=""
+              >best choice
+              <svg class="menu-svg">
+                <use href="./img/symbol-defs.svg#icon-galka"></use>
+              </svg> </a
+          ></li>
+          <li class="backdrop-menu__item"
+            ><a class="backdrop-menu-item__link" href=""
+              >big sale -80%
+              <svg class="menu-svg">
+                <use href="./img/symbol-defs.svg#icon-galka"></use>
+              </svg> </a
+          ></li>
+          <li class="backdrop-menu__item"
+            ><a class="backdrop-menu-item__link" href=""
+              >season discounts
 
-        <div class="backdrop-menu__list">
-          <select class="backdrop-menu__item" name="" id="">
-            <option>new collection</option>
-          </select>
-          <select class="backdrop-menu__item" name="" id="">
-            <option>new arrival</option>
-          </select>
-
-          <select class="backdrop-menu__item" name="" id="">
-            <option>best choice</option></select
-          >
-          <select class="backdrop-menu__item" name="" id="">
-            <option>big sale -80%</option>
-          </select>
-          <select class="backdrop-menu__item" name="" id="">
-            <option>season discounts</option>
-          </select>
-        </div>
+              <svg class="menu-svg">
+                <use href="./img/symbol-defs.svg#icon-galka"></use></svg></a
+          ></li>
+        </ul>
 
         <div class="backdrop-menu__social">
           <div class="social-menu">
@@ -764,7 +741,7 @@
               <h3 class="folow-menu">Follow us:</h3>
             </div>
             <div>
-              <a href="">
+              <a class="folow-menu__link" href="">
                 <svg>
                   <use href="./img/symbol-defs.svg#icon-Social-Facebook"></use>
                 </svg>
@@ -772,7 +749,7 @@
             </div>
 
             <div>
-              <a href="">
+              <a class="folow-menu__link" href="">
                 <svg>
                   <use href="./img/symbol-defs.svg#icon-Social-twitter"></use>
                 </svg>
@@ -780,7 +757,7 @@
             </div>
 
             <div>
-              <a href="">
+              <a class="folow-menu__link" href="">
                 <svg>
                   <use href="./img/symbol-defs.svg#icon-Social-Instagram"></use>
                 </svg>
