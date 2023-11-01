@@ -1043,6 +1043,7 @@ footer {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+  align-items: end;
 
   padding-top: 24px;
 }
@@ -2623,13 +2624,13 @@ a.footer-link__text svg {
     font-size: 15px;
   }
   .footer-headline__lum {
-    font-size: 21px;
+    font-size: 19px;
   }
   .footer-headline__list {
-    font-size: 16px;
+    font-size: 13px;
   }
   .footer-link__text {
-    font-size: 16px;
+    font-size: 8px;
   }
   .subscrite-form__wrap {
     flex-direction: row-reverse;
@@ -2656,7 +2657,7 @@ a.footer-link__text svg {
     text-align: center;
   }
   .subscrite-form__wrap::before {
-    bottom: 78%;
+    bottom: 69%;
   }
   .icon-input {
     right: 20%;
@@ -2673,31 +2674,32 @@ a.footer-link__text svg {
     bottom: 7%;
   }
   .copyright-text {
-    font-size: 15px;
+    font-size: 13px;
   }
   .social-footer {
-    gap: 12px;
-    width: 35%;
+    gap: 11px;
+    width: 50%;
   }
   .folow {
-    font-size: 17px;
-    min-width: 75px;
+    font-size: 14px;
+    min-width: 60px;
   }
   div.social-footer div a svg {
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
   }
 
   ul li a.footer-link__text svg {
-    width: 18px;
-    height: 18px;
+    width: 10px;
+    height: 10px;
   }
   .col-footer {
     width: 72%;
   }
   .copyright {
-    width: 65%;
+    width: 60%;
   }
+
   .main-banner .slick-initialized .slick-slide {
     display: block;
   }
