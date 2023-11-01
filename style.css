@@ -131,6 +131,60 @@ header {
   position: relative;
 }
 
+.header-banner__slider .slick-next svg {
+  width: 26px;
+  height: 13px;
+  stroke: #fff;
+  fill: none;
+  transition: stroke 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-banner__slider .slick-next svg:hover {
+  stroke: #31dce5;
+}
+
+.header-banner__slider .slick-prev svg {
+  width: 24px;
+  height: 24px;
+  stroke: #fff;
+  fill: none;
+  transition: stroke 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-banner__slider .slick-prev svg:hover {
+  stroke: #31dce5;
+}
+
+.header-banner__slider .slick-dots {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  position: absolute;
+  bottom: -143px;
+}
+.header-banner__slider .slick-dots button {
+  border: 0;
+  background: transparent;
+
+  color: #fff;
+
+  text-align: center;
+  font-family: TharLon;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.5px;
+
+  transition: color 350ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.slider-collection button .slick-next {
+  display: none;
+}
+.header-banner__slider .slick-dots button:hover {
+  color: #31dce5;
+}
+
 .header-wrapper::before {
   content: " ";
   background: #fff;
@@ -1799,6 +1853,12 @@ a.footer-link__text svg {
   .container {
     width: 962px;
   }
+  .header-banner__slider .slick-dots {
+    bottom: -90px;
+  }
+  .header-banner__slider .slick-dots button {
+    font-size: 25px;
+  }
   .wrap-subscrite-inputfooter {
     display: flex;
     flex-direction: column;
@@ -1986,6 +2046,12 @@ a.footer-link__text svg {
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .container {
     width: 738px;
+  }
+  .header-banner__slider .slick-dots {
+    bottom: -69px;
+  }
+  .header-banner__slider .slick-dots button {
+    font-size: 22px;
   }
   .wrap-subscrite-inputfooter {
     display: flex;
@@ -2235,6 +2301,12 @@ a.footer-link__text svg {
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .container {
     width: 546px;
+  }
+  .header-banner__slider .slick-dots {
+    bottom: -18%;
+  }
+  .header-banner__slider .slick-dots button {
+    font-size: 22px;
   }
   .wrap-subscrite-inputfooter {
     display: flex;
@@ -2495,6 +2567,12 @@ a.footer-link__text svg {
 @media screen and (min-width: 320px) and (max-width: 576px) {
   .container {
     width: 290px;
+  }
+  .header-banner__slider .slick-dots button {
+    font-size: 22px;
+  }
+  .header-banner__slider .slick-dots {
+    bottom: -18%;
   }
 
   .wrap-subscrite-inputfooter {

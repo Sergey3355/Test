@@ -549,8 +549,8 @@
                   </a>
                 </li>
                 <li>
-                  <a class="footer-link__text" href="#"
-                    ><svg>
+                  <a class="footer-link__text" href="#">
+                    <svg>
                       <use href="./img/symbol-defs.svg#icon-Icons-2"></use>
                     </svg>
                     23423142314234</a
@@ -780,8 +780,13 @@
           dots: false,
           infinite: true,
           speed: 300,
-          slidesToShow: 4,
-          slidesToScroll: 1,
+          slidesToShow: 1,
+          centerMode: true,
+          variableWidth: true,
+          autoplay: true,
+          autoplaySpeed: 2000,
+          arrows: false,
+
           responsive: [
             {
               breakpoint: 1024,
@@ -795,6 +800,7 @@
             {
               breakpoint: 600,
               settings: {
+                arrows: false,
                 slidesToShow: 2,
                 slidesToScroll: 2,
               },
@@ -809,11 +815,15 @@
           ],
         });
         $(".header-banner__slider").slick({
-          dots: false,
+          dots: true,
           infinite: true,
           speed: 500,
           slidesToShow: 1,
           slidesToScroll: 1,
+          prevArrow:
+            "<button type='button' class='slick-prev'><svg><use href='./img/symbol-defs.svg#icon-Frame-2'></use></svg></button>",
+          nextArrow:
+            "<button type='button' class='slick-next'><svg><use href='./img/symbol-defs.svg#icon-Frame-1506'></use></svg></button>",
         });
         var colors = ["#435476", "#ab4e3d"];
         $(".main-banner").css("background-color", colors[0]);

@@ -11,6 +11,9 @@
 <symbol id="icon-Frame-1" viewBox="0 0 32 32">
 <path  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.7826" d="M10 22l16-16M26 6h-15M26 6v15"></path>
 </symbol>
+<symbol id="icon-Frame-1506" viewBox="0 0 60 32">
+<path  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.2667" d="M2.133 16h55.467M57.6 16l-14.4-13.867M57.6 16l-14.4 13.867"></path>
+</symbol>
 <symbol id="icon-Frame-2" viewBox="0 0 32 32">
 <path  stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M26 16h-20M6 16l9-9M6 16l9 9"></path>
 </symbol>
