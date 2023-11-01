@@ -16,6 +16,9 @@
   font-family: "TharLon";
   src: url("./fonts/TharLon.ttf.woff") format("woff");
 }
+html {
+  overflow-x: hidden;
+}
 
 body {
   font-family: "Barlow", sans-serif;
@@ -23,7 +26,6 @@ body {
   font-family: "Tenor Sans", sans-serif;
   font-family: "The Nautigal", cursive;
   margin: 0;
-  overflow-x: hidden;
 }
 
 .hidden {
@@ -2773,6 +2775,7 @@ a.footer-link__text svg {
 
   .headline-footer {
     font-size: 18px;
+    min-width: 350px;
   }
   .text-footer {
     font-size: 15px;
