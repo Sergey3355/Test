@@ -16,10 +16,10 @@
   font-family: "TharLon";
   src: url("./fonts/TharLon.ttf.woff") format("woff");
 }
-html {
-  overflow-x: hidden;
-  overflow-y: scroll;
-}
+/* html {
+  max-height: auto;
+  overflow-y: auto;
+} */
 
 body {
   font-family: "Barlow", sans-serif;
@@ -27,6 +27,8 @@ body {
   font-family: "Tenor Sans", sans-serif;
   font-family: "The Nautigal", cursive;
   margin: 0;
+
+  overflow-x: hidden;
 }
 
 .hidden {
