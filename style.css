@@ -23,6 +23,7 @@ body {
   font-family: "Tenor Sans", sans-serif;
   font-family: "The Nautigal", cursive;
   margin: 0;
+  overflow: hidden;
 }
 
 .hidden {
@@ -2307,6 +2308,7 @@ a.footer-link__text svg {
   .container {
     width: 546px;
   }
+
   .header-banner__slider .slick-dots {
     bottom: -18%;
   }
@@ -2509,14 +2511,14 @@ a.footer-link__text svg {
     text-align: center;
   }
   .subscrite-form__wrap::before {
-    bottom: 59%;
+    bottom: 63%;
   }
   .icon-input {
     right: 26%;
     top: 22%;
   }
   .wrapper-colum__footer::before {
-    bottom: 12%;
+    bottom: 13%;
   }
   .copyright-text {
     font-size: 15px;
@@ -2534,8 +2536,7 @@ a.footer-link__text svg {
     height: 20px;
   }
   .col-footer {
-    width: 21%;
-    text-align: center;
+    width: 15%;
   }
   .copyright {
     width: 49%;
@@ -2777,13 +2778,13 @@ a.footer-link__text svg {
     font-size: 15px;
   }
   .footer-headline__lum {
-    font-size: 19px;
+    font-size: 30px;
   }
   .footer-headline__list {
-    font-size: 13px;
+    font-size: 25px;
   }
   .footer-link__text {
-    font-size: 8px;
+    font-size: 15px;
   }
   .subscrite-form__wrap {
     flex-direction: row-reverse;
@@ -2810,7 +2811,7 @@ a.footer-link__text svg {
     text-align: center;
   }
   .subscrite-form__wrap::before {
-    bottom: 69%;
+    bottom: 83%;
   }
   .icon-input {
     right: 20%;
@@ -2818,33 +2819,35 @@ a.footer-link__text svg {
   }
 
   .wrapper-colum__footer {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     display: grid;
     gap: 50px;
+    text-align: center;
+    padding-left: 55px;
   }
 
   .wrapper-colum__footer::before {
     bottom: 7%;
   }
   .copyright-text {
-    font-size: 13px;
+    font-size: 14px;
   }
   .social-footer {
     gap: 9px;
     width: 63%;
   }
   .folow {
-    font-size: 12px;
+    font-size: 14px;
     min-width: 58px;
   }
   div.social-footer div a svg {
-    width: 17px;
-    height: 17px;
+    width: 18px;
+    height: 18px;
   }
 
   ul li a.footer-link__text svg {
-    width: 10px;
-    height: 10px;
+    width: 23px;
+    height: 23px;
   }
   .col-footer {
     width: 72%;
